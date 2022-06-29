@@ -1,0 +1,29 @@
+{
+    "default": {
+        "screens": {
+            "sm": { "min" : null, "max" : "640px" },
+            "md": { "min" : null, "max" : "768px" },
+            "lg": { "min" : null, "max" : "1024px" },
+            "xl": { "min" : null, "max" : "1280px" },
+            "2xl": { "min" : null, "max" : "1536px" }
+        },
+        "selectors": {
+            ":": ["active", "checked", "default", "disabled", "empty", "enabled", "first-child", "first-of-type", "focus", "fullscreen", "hover", "in-range", "indeterminate", "invalid", "last-child", "last-of-type", "link", "only-of-type", "only-child", "optional", "out-of-range", "read-only", "read-write", "required", "root", "target", "valid", "visited"],
+            "::": ["after", "before", "first-letter", "first-line", "marker", "placeholder"]
+        },
+        "colors": {
+            "slate": {
+                "50": "#f8fafc",
+                "100": "#f1f5f9",
+                "200": "#e2e8f0",
+                "300": "#cbd5e1",
+                "400": "#94a3b8",
+                "500": "#64748b",
+                "600": "#475569",
+                "700": "#334155",
+                "800": "#1e293b",
+                "900": "#0f172a"
+            }
+        }
+    }
+}

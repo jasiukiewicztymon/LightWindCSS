@@ -1,4 +1,11 @@
-function getAllClasses() {
+/*
+AUTHOR: Jasiukiewicz Tymon
+GITHUB: https://github.com/jasiukiewicztymon
+*/
+
+// Getting all the existing classes at the document creation
+
+export function getAllClasses() {
     let allClasses = [];
     let allElements = document.querySelectorAll('*');
     for (let i = 0; i < allElements.length; i++) {
